@@ -154,3 +154,67 @@ h1 {
     text-align: center;
     padding: 3px;
 }
+
+/* Responsive */
+
+@media screen and (max-width: 1028px) {
+    .container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .player-cards {
+        height: 13rem;
+        width: 10rem;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+    .s3-title {
+        text-align: top;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .fp-controlArrow.fp-prev {
+        margin-top: 10rem;
+    }
+    .fp-controlArrow.fp-next {
+        margin-top: 10rem;
+    }
+}
+
+@media screen and (max-width: 705px) {
+    .container {
+        grid-template-columns: 1fr 1fr;
+    }
+    h1,
+    h5 {
+        margin-left: 1rem;
+    }
+    h5 {
+        font-size: 1.5rem;
+        text-align: start;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+    .player-cards {
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+    .sl1,
+    .sl2,
+    .sl3,
+    .sl4,
+    .sl5 {
+        font-size: 3rem;
+    }
+}
