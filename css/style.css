@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap");
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto Mono", monospace;
+}
+
+h1,
+h5 {
+    color: White;
+    margin-left: 5rem;
+}
+h5 {
+    font-size: 1.5rem;
+    text-align: right;
+    margin-right: 5rem;
+}
+h1 {
+    font-weight: bold;
+    font-size: 8rem;
+}
+
+.s1 {
+    background: url("../pics/three.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+.s2 {
+    background: url("../pics/two.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+.s3 {
+    background: url("../pics/one.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+.sl1,
+.sl2,
+.sl3,
+.sl4,
+.sl5 {
+    font-weight: bold;
+    font-size: 5rem;
+    color: White;
+    text-align: center;
+}
+.sl2 {
+    background: url("../pics/ao.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+.sl3 {
+    background: url("../pics/rolandgarros.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+.sl4 {
+    background: url("../pics/wimbledon.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+.sl5 {
+    background: url("../pics/usopen.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+    background: #fff !important;
+}
+.fp-controlArrow.fp-prev {
+    left: 5rem !important;
+    size: 30%;
+    border-width: 38.5px 20px 38.5px 0 !important;
+}
+.fp-controlArrow.fp-next {
+    right: 5rem !important;
+    border-width: 38.5px 0 38.5px 20px !important;
+}
+
+.container {
+    display: grid;
+}

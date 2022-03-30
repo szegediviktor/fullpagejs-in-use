@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>fullpage.js</title>
+        <link rel="stylesheet" type="text/css" href="./css/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css"
+            integrity="sha512-4rPgyv5iG0PZw8E+oRdfN/Gq+yilzt9rQ8Yci2jJ15rAyBmF0HBE4wFjBkoB72cxBeg63uobaj1UcNt/scV93w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    </head>
+    <body>
+        <div id="fullpage">
+            <div class="section s1">
+                <h1>Welcome,</h1>
+                <h5>on the court, hang up your racket!</h5>
+            </div>
+            <div class="section s2">
+                <div class="slide sl1">Grand Slams</div>
+                <div class="slide sl2">Australian Open</div>
+                <div class="slide sl3"></div>
+                <div class="slide sl4">Wimbledon</div>
+                <div class="slide sl5">US Open</div>
+            </div>
+            <div class="section s3">
+                <div class="container">
+                    <div>My favourite Players</div>
+                    <div class="playerCards">Daniil Medvedev</div>
+                    <div class="playerCards">Carlos Alcaraz</div>
+                    <div class="playerCards">Roger Federer</div>
+                    <div class="playerCards">Szegedi Viktor</div>
+                </div>
+            </div>
+        </div>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"
+            integrity="sha512-gSf3NCgs6wWEdztl1e6vUqtRP884ONnCNzCpomdoQ0xXsk06lrxJsR7jX5yM/qAGkPGsps+4bLV5IEjhOZX+gg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script type="text/javascript">
+            new fullpage("#fullpage", {
+                autoScrolling: true,
+                scrollHorizontally: true,
+                navigation: true,
+                scrollingSpeed: 1300,
+            });
+        </script>
+    </body>
+</html>
