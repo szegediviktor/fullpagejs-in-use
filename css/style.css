@@ -97,4 +97,42 @@ h1 {
 
 .container {
     display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin: 10rem;
+}
+
+.player-cards {
+    height: 15rem;
+    width: 10rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.85;
+    margin: 2rem;
+}
+.player-cards:hover {
+    opacity: 1;
+}
+.medve {
+    background: url("../pics/medve.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.carlitos {
+    background: url("../pics/carlitos.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.roger {
+    background: url("../pics/roger.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.viktor {
+    background: url("../pics/viktor.jpg");
+    background-size: cover;
+    background-position: center;
 }
