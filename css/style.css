@@ -97,11 +97,11 @@ h1 {
 
 .container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-    gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 3rem;
     align-items: center;
     justify-content: center;
-    margin: 10rem;
+    margin: 0 10rem;
 }
 
 .player-cards {
@@ -112,8 +112,13 @@ h1 {
     align-items: center;
     opacity: 0.85;
     margin: 2rem;
+    padding: 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
 }
 .player-cards:hover {
+    transition: ease all 1000ms;
     opacity: 1;
 }
 .medve {
@@ -135,4 +140,18 @@ h1 {
     background: url("../pics/viktor.jpg");
     background-size: cover;
     background-position: center;
+}
+.s3-title {
+    color: #fff;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.name {
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    bottom: 0;
 }
