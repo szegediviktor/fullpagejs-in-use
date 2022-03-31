@@ -134,8 +134,8 @@ h1 {
     background-size: cover;
     background-position: center;
 }
-.viktor {
-    background: url("../pics/viktor.jpg");
+.nadal {
+    background: url("../pics/rafa.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -154,6 +154,13 @@ h1 {
     bottom: 0;
     text-align: center;
     padding: 3px;
+    margin: 3px;
+    transition: all ease 1s;
+    opacity: 0;
+}
+
+.player-cards:hover .name {
+    opacity: 1;
 }
 
 /* Responsive */
